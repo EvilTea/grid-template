@@ -1,13 +1,9 @@
 .about {
   background-color: #e5e5e5;
-
-  .container {
-    grid-gap: 100px;
-    grid-template-columns: 1fr 271px;
-  }
 }
 
 .about-image {
+  display: grid;
   align-content: center;
   justify-content: center;
 
@@ -24,8 +20,6 @@
   }
 
   p {
-    font-size: 1.125rem;
-
     &:first-of-type {
       position: relative;
 

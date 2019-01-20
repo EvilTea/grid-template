@@ -2,11 +2,6 @@
   .container {
     grid-gap: 20px;
   }
-
-  h2 {
-    margin-bottom: 30px;
-    grid-column: 1 / span 4;
-  }
 }
 
 .posts-item {
@@ -46,14 +41,6 @@
       transition: color 0.5s;
       text-align: center;
     }
-  }
-
-  &:nth-of-type(1) {
-    grid-column: 1 / span 2;
-  }
-
-  &:nth-of-type(6) {
-    grid-column: 3 / span 2;
   }
 
   :hover {
